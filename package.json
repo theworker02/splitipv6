@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/splitipv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Split filesystem ipv6 paths across POSIX and Windows conventions.",
+  "bin": {
+    "splitipv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/splitipv6.git"
+  },
+  "homepage": "https://theworker02.github.io/splitipv6/",
+  "keywords": [
+    "split",
+    "ipv6",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
